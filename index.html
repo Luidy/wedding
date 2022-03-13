@@ -135,6 +135,22 @@
 <div class="ww-section bg-light" id="location">
   <div class="container ww-couple-friends">
     <h2 class="h1 text-center pt-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Location</h2>
+    <div id="daumRoughmapContainer1647178050446" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%"></div>
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="my-3">
+          <div class="h4">Wedding Party</div>
+          <ul>
+            <li><i class="text-muted fas fa-map-marker-alt"></i><span class="pl-2 text-muted">Church End, Hendon, London, UK</span></li>
+            <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">20 Dec 2018, 9AM - 6PM</span></li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit nulla enim arcu dictum lobortis, ac congue non hendrerit accumsan. Ut penatibus litora platea mi mus tempus eros proin, maecenas hac eget hendrerit inceptos per tempor sodales, id varius nulla commodo augue lectus pulvinar. Etiam suscipit leo sollicitudin vivamus tempor himenaeos vitae mattis dictum posuere, tincidunt aenean litora aptent facilisis eu est gravida.</p>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="my-3"><img class="img-fluid" src="images/wedding-party.jpg" alt="Wedding Party" data-aos="fade-down-right" data-aos-duration="1000"/></div>
+      </div>
+    </div>
     <div class="carousel slide" id="ww-carouselIndicator" data-ride="carousel" data-aos="zoom-in-up" data-aos-duration="1000">
       <ol class="carousel-indicators">
         <li class="active" data-target="#ww-carouselIndicator" data-slide-to="0"></li>
@@ -286,5 +302,14 @@
     <script src="scripts/aos.js?ver=1.1.0"></script>
     <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script> 
+    <script charset="UTF-8">
+	    new daum.roughmap.Lander({
+	    	"timestamp" : "1647178050446",
+	    	"key" : "29fum",
+	    	"mapWidth" : "640",
+    		"mapHeight" : "360"
+    	}).render();
+    </script>
   </body>
 </html>
