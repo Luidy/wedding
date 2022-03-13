@@ -77,21 +77,33 @@ body {
   padding: 5px 0 5px 16px;
   font-weight: 500; }
 
-/* Wedding Event Style */
+/* Wedding Message Style */
 .ww-wedding-message ul {
   list-style: none;
   padding-left: 0; }
 
-/* Couple Friends Style  */
-.ww-couple-friends .carousel {
+/* Location Style  */
+.ww-location ul {
+  list-style: none;
+  padding-left: 0; }
+
+.ww-location .carousel {
   padding: 40px 0; }
 
-.ww-couple-friends .carousel-indicators {
+.ww-location .carousel-indicators {
   bottom: 0px; }
-  .ww-couple-friends .carousel-indicators li {
+  .ww-location .carousel-indicators li {
     background-color: #6c757d; }
-  .ww-couple-friends .carousel-indicators .active {
+  .ww-location .carousel-indicators .active {
     background-color: #f58a77; }
+
+.ww-location .ww-map a {
+  display: inline-block;
+  margin: 0 10px 6px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 3px; }
 
 /* Photo Gallery Style */
 .ww-photo-gallery .ww-category-filter a {
