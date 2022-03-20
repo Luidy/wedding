@@ -172,6 +172,10 @@ body {
   left: 0;
   top: 0; }
 
+.ww-rsvp-form ul {
+  list-style: none;
+  padding-left: 0; }
+
 /* Footer Style */
 .ww-footer a.credit {
   color: inherit;
@@ -186,7 +190,11 @@ body {
 .ww-section {
   padding: 100px 0; }
 
+.ww-bankaccount {
+  padding: 15px 30px; }
+
 .btn-primary {
+  font-size: 12px;
   color: #fff; }
 
 .btn-outline-primary:hover {
