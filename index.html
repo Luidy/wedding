@@ -49,7 +49,7 @@
   <div class="page-content">
     <div class="div">
       <div class="ww-home-page" id="home">
-        <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
+        <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">          
           <div class="container ww-announcement-container">
             <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000">
               서정은-조은지</p>
@@ -58,6 +58,11 @@
           </div>
         </div>
       </div>
+      <audio id="player" src="love.mp3" loop autoplay></audio>
+      <div>
+          <button onclick="document.getElementById('player').play()">🔈재생</button>
+          <button onclick="document.getElementById('player').pause()">🔇정지</button>          
+      </div> 
       <div class="ww-section" id="couple">
         <div class="container">
           <h4 class="h6 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">
@@ -241,18 +246,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="bottom_left">
-        <audio id="player" src="mus.mp3"></audio>
-        <div>
-            <i class="fa fa-music fa-2x" onclick="document.getElementById('player').play()"></i>
-        </div>
+      </div>   
     </div>
-
-
-
-    </div>
-  </div>
+  </div>   
   <script src="scripts/jquery.min.js?ver=1.1.0"></script>
   <script src="scripts/bootstrap.bundle.min.js?ver=1.1.0"></script>
   <script src="scripts/aos.js?ver=1.1.0"></script>
