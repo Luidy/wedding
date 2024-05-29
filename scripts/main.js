@@ -66,7 +66,8 @@ function filterItems(filter) {
   }
 
   activeFilter = filter;
-  $(".ww-gallery .card").each(function () {
+  var galleryId = $("#" + this.id).attr('id'); // 현재 요소의 id를 가져와서 갤러리 id로 설정
+  $("#" + galleryId + " .card").each(function () {
     var card = $(this);
     var groups = card.data("groups");
     var show = false;
